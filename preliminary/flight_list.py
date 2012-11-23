@@ -19,7 +19,7 @@ for code in sorted_codes:
     numbers = flight_list[code]
     sorted_numbers = sorted(numbers)
     for number in sorted_numbers:
-        print code, number
+        print code+number
 
 
 
